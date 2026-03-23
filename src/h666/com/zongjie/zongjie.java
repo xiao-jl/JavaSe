@@ -4,6 +4,14 @@ package h666.com.zongjie;
 //import (用于导入其他包中的类或接口)
 //导入键盘录入的包
 import java.util.Scanner;
+//导入随机数的包
+import java.util.Random;
+
+
+//java.lang 是核心基础包，编译器会自动导入该包下的所有类，不需要另外导入
+
+
+
 
 
 
@@ -36,13 +44,17 @@ public class zongjie {
     //键盘录入
         //为键盘录入申请内存（开启）
         Scanner sc = new Scanner(System.in);
-
         int sssccc = sc.nextInt();
-
-        System.out.println(sssccc);
-
         //为键盘录入关闭内存（关闭）
         sc.close();
+
+
+
+    //随机数
+        //创建对象
+        Random Random = new Random();
+        //获取随机数，范围：包括0,但不包括10
+        int num = Random.nextInt(10);
 
 
 
@@ -72,8 +84,6 @@ public class zongjie {
                 System.out.println(ccc[i][j]);
             }
         }
-
-
 
 
 
@@ -126,11 +136,7 @@ public class zongjie {
 
 
 
-
-
     }
-
-
 
 
 
@@ -139,8 +145,6 @@ public class zongjie {
     public final void aaa () {
         final int a = 0;
     }
-
-
 
 
 
@@ -160,8 +164,6 @@ public class zongjie {
     *   setA更改数值
     *   getA获取数值
     * */
-
-
 
 
 
@@ -188,8 +190,6 @@ public class zongjie {
 
 
 
-
-
 //构造方法
      /* 构造方法：
      *       给对象的数据初始化
@@ -211,8 +211,6 @@ public class zongjie {
     *
     * 构造方法可以重载
     * */
-
-
 
 
 

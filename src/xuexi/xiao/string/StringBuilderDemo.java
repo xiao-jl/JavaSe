@@ -3,7 +3,7 @@ package xuexi.xiao.string;
 //StringBuilderDemo
 
 /*
- * String和StringBuilder的区别:
+ * String和StringBuilder的区别：
  *   String的内容是固定的
  *   StringBuilder的内容是可变的
  *
@@ -13,14 +13,17 @@ package xuexi.xiao.string;
  * 初始化默认长度为16
  *
  * 成员方法：
- *   public int capacity() :         返回当前容量
- *   public int length() :           返回长度（字符个数）
+ *   public int capacity() ：         返回当前容量
+ *   public int length() ：           返回长度（字符个数）
  *
- *   public StringBuilder append(任意类型) :       添加
- *   public StringBuilder reverse() :            反转
+ *   容量：理论值
+ *   长度：实际值
  *
- * 容量：理论值
- * 长度：实际值
+ *   public StringBuilder append(任意类型) ：       添加
+ *   public StringBuilder reverse() ：            反转
+ *
+ *   public String toString() ：             StringBuilder转成String
+ *   StringBuilder(String str) ：            String转成StringBuilder
  *
  * */
 
@@ -39,7 +42,7 @@ public class StringBuilderDemo {
 
 
 
-        //添加功能
+    //添加功能
 
         //append的第一种写法
         sb.append("hello");
@@ -56,10 +59,42 @@ public class StringBuilderDemo {
 
 
 
-        //反转功能
-
+    //反转功能
         sb.reverse();
         System.out.println("sb.reverse：" + sb);
+
+
+
+        System.out.println("==================================");
+
+
+
+    //转换
+        //StringBuilder --- String
+        String s = sb.toString();
+        System.out.println("sb.toString：" + s);
+
+        //String --- StringBuilder
+        String ss = "hello";
+        StringBuilder sb1 = new StringBuilder(ss);
+        System.out.println("StringBuilder(String str)：" + sb1);
+
+
+
+        System.out.println("==================================");
+
+
+
+    //判断字符串是否对称
+        String ss1 = "OvO";
+        StringBuilder sb2 = new StringBuilder(ss1);
+        sb.reverse();
+        String ss2 = sb2.toString();
+
+        boolean bool = ss2.equals(ss1);
+        System.out.println(bool);
+
+
 
     }
 }
