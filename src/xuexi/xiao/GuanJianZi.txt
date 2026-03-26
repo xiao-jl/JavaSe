@@ -90,3 +90,14 @@ Java JDK8 关键字
     3.其他
             length (遍历数组的长度)
             equals (比较两个值是否相等)
+
+
+其他常用包：
+    java.lang：
+        String    (字符串类型)
+        StringBuilder    (可变的字符序列类)
+
+    java.util：
+        Scanner    (键盘录入类)
+        Random    (随机数类)
+        ArrayList    (集合类)
