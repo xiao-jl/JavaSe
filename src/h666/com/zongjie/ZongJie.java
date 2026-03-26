@@ -24,7 +24,7 @@ import java.util.Random;
 /*类第二个关键字 class 是声明是一个类
 * class (用于声明一个类，类是面向对象编程的基本构造块)
 * */
-public class zongjie {
+public class ZongJie {
     //main方法
     /*main第一个关键字是访问控制关键字：
     *   private (访问控制：私有，只能在声明它的类内部访问)
@@ -197,12 +197,32 @@ public class zongjie {
      *       1.方法名和类名相同
      *       2.没有返回值类型（void也不能写）
      *       3.没有具体返回值
+     *
+     * 使用方法：
+     *      构造方法名 对象名 = new 构造方法();
+     *
      * */
-    public class GouZaoFangFa{
-        public GouZaoFangFa() {
-            System.out.println("这是一个构造方法");
-        }
+
+//无参构造方法
+public class WuCanGouZaoFangFa {
+    public WuCanGouZaoFangFa() {
+        System.out.println("这是一个无参构造方法");
     }
+}
+
+//有参构造方法
+public class YouCanGouZaoFangFa {
+    private int a1;
+    //封装
+    //获取（更改）
+    public void seta(int a1) {
+        this.a1 = a1;
+    }
+    //设置（返回数值）
+    public int getA() {
+        return a1;
+    }
+}
     /*使用：
     *   在main方法中：
     *       类名 对象名 = new 构造方法(……);      注：…… 为形参
