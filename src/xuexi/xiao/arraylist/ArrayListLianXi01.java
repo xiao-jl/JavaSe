@@ -2,6 +2,10 @@ package xuexi.xiao.arraylist;
 
 //ArrayList练习01
 
+/*
+* 遍历ArrayList
+* */
+
 import java.util.ArrayList;
 
 public class ArrayListLianXi01 {

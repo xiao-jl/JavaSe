@@ -1,10 +1,10 @@
 package xuexi.xiao.jiben;
 
-// 注释
+//注释
 
 public class ZuShi {
 
-// 单行注释
+//单行注释
 
 /*
 * 多行注释
