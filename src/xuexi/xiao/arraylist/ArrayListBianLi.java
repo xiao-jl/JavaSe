@@ -32,7 +32,7 @@ public class ArrayListBianLi {
 
 
 
-        //标准写法
+        //标准遍历
         for (int i = 0;i < array.size();i ++) {
             String s = array.get(i);    //接受的数据类型用同类型泛型
             System.out.println(s);

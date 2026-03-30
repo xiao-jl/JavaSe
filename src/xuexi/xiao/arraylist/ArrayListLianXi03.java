@@ -4,6 +4,9 @@ package xuexi.xiao.arraylist;
 
 /*
 * 存储自定义对象病遍历
+*
+* array存对象地址值，对象存成员类的地址值，成员类存方法与封装的变量
+*
 * */
 
 import java.util.ArrayList;
@@ -23,6 +26,7 @@ public class ArrayListLianXi03 {
 
         for (int i = 0;i < Array.size();i ++) {
 
+            //使用同数据类型接收（泛型与接收的数据类型）
             ArrayListLianXi03_Lei s = Array.get(i);
             System.out.println(s.getA()+"---"+s.getB());
 

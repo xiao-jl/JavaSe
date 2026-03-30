@@ -76,8 +76,7 @@ public class StringBuilderDemo {
 
         //String --- StringBuilder
         String ss = "hello";
-        StringBuilder sb1 = new StringBuilder(ss);
-        System.out.println("StringBuilder(String str)：" + sb1);
+        System.out.println("StringBuilder(String str)：" + ss);
 
 
 
@@ -87,9 +86,8 @@ public class StringBuilderDemo {
 
     //判断字符串是否对称
         String ss1 = "OvO";
-        StringBuilder sb2 = new StringBuilder(ss1);
         sb.reverse();
-        String ss2 = sb2.toString();
+        String ss2 = ss1;
 
         boolean bool = ss2.equals(ss1);
         System.out.println(bool);

@@ -6,11 +6,11 @@ package h666.com.zongjie;
 import java.util.Scanner;
 //导入随机数的包
 import java.util.Random;
+//导入集合类的包
+import java.util.ArrayList;
 
 
 //java.lang 是核心基础包，编译器会自动导入该包下的所有类，不需要另外导入
-
-
 
 
 
@@ -40,23 +40,6 @@ public class ZongJie {
     * 四类八种数据类型
     * */
     public static void main(String[] args) {
-
-    //键盘录入
-        //为键盘录入申请内存（开启）
-        Scanner sc = new Scanner(System.in);
-        int sssccc = sc.nextInt();
-        //为键盘录入关闭内存（关闭）
-        sc.close();
-
-
-
-    //随机数
-        //创建对象
-        Random Random = new Random();
-        //获取随机数，范围：包括0,但不包括10
-        int num = Random.nextInt(10);
-
-
 
     //数组：
         /*
@@ -88,51 +71,116 @@ public class ZongJie {
 
 
     //选择、循环
-        int i = 0;
+        int a = 0;
 
     //选择
 
         //if
-        if (i == 0) {
-            i = 0;
-        }else if (i == 1) {
-            i = 1;
+        if (a == 0) {
+            a = 0;
+        }else if (a == 1) {
+            a = 1;
         }else{
-            i = 0;
+            a = 0;
         }
 
         //switch
-        switch (i) {
+        switch (a) {
             case 0:
-                i = 0;
+                a = 0;
                 break;
             case 1:
-                i = 1;
+                a = 1;
                 break;
             case 2:
-                i = 2;
+                a = 2;
                 break;
             default:
-                i = 0;
+                a = 0;
                 break;
         }
 
     //循环
 
         //for
-        for (int j = 0;j <= 5;j ++) {
-            j ++;
+        for (int i = 0; i <= 5; i++) {
+            i++;
         }
 
         //while
-        while (i < 5) {
-            i ++;
+        while (a < 5) {
+            a++;
         }
 
         //do……while
         do {
-            i ++;
-        }while(i < 5);
+            a++;
+        }while(a < 5);
+
+
+
+    //键盘录入
+        //为键盘录入申请内存（开启）
+        Scanner sc = new Scanner(System.in);
+        System.out.print("请输入任意数字以继续运行：");     //提醒一下，否则可能没有提示导致无法执行下一步
+        int sssccc = sc.nextInt();
+        //为键盘录入关闭内存（关闭）
+        sc.close();
+
+
+
+    //随机数
+        //创建对象
+        Random Random = new Random();
+        //获取随机数，范围：包括0,但不包括10
+        int num = Random.nextInt(10);
+
+
+
+    //ArrayList集合类
+        //创建对象---String类型
+        ArrayList<String> array = new ArrayList<String>();
+
+        //添加
+        array.add("Hello");
+        array.add("Java");
+        array.add("!!!");
+
+        //打印
+        System.out.println(array);
+
+        //遍历
+        //非标准写法
+        for (int i = 0;i < array.size();i ++) {
+            System.out.println(array.get(i));
+        }
+
+        //标准遍历
+        for (int i = 0;i < array.size();i ++) {
+            String s = array.get(i);    //接受的数据类型用同类型泛型
+            System.out.println(s);
+            //可以用s变量做很多事情了
+        }
+
+
+        //创建对象---构造方法类型
+        ArrayList<Lei> array2 = new ArrayList<Lei>();
+
+        Lei s1 = new Lei("A",1);
+        Lei s2 = new Lei("B",2);
+        Lei s3 = new Lei("C",3);
+
+        array2.add(s1);
+        array2.add(s2);
+        array2.add(s3);
+
+        System.out.println("array2");
+        System.out.println(array2);
+
+        for (int i = 0;i < array.size();i ++) {
+            Lei s = array2.get(i);
+            System.out.println(s.getA()+"---"+s.getB());
+        }
 
 
 

@@ -2,8 +2,8 @@ package xuexi.xiao.yinyongshujuleixing;
 
 public class CeShiLei {
 
-    private String a;
-    private int b;
+    private final String a;
+    private final int b;
 
 
     public CeShiLei(String a, int b) {

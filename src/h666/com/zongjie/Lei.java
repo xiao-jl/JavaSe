@@ -1,11 +1,11 @@
-package xuexi.xiao.arraylist;
+package h666.com.zongjie;
 
-public class ArrayListLianXi03_Lei {
+public class Lei {
 
     private final String a;
     private final int b;
 
-    public ArrayListLianXi03_Lei(String a,int b) {
+    public Lei(String a, int b) {
         this.a = a;
         this.b = b;
     }
@@ -16,4 +16,5 @@ public class ArrayListLianXi03_Lei {
     public int getB() {
         return b;
     }
+
 }

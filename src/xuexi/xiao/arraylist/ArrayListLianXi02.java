@@ -7,6 +7,7 @@ package xuexi.xiao.arraylist;
 * */
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayListLianXi02 {
     public static void main (String[] args) {
@@ -15,11 +16,7 @@ public class ArrayListLianXi02 {
 
         ArrayList<String> Array = new ArrayList<String>();
 
-        for (int i = 0;i < strArray.length;i ++) {
-
-            Array.add(strArray[i]);
-
-        }
+        Collections.addAll(Array, strArray);
 
         for (int i = 0;i < Array.size();i ++) {
 

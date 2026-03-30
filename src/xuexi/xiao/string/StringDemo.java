@@ -74,11 +74,11 @@ public class StringDemo {
         System.out.println(s1.indexOf("o"));
 
         //String substring(int start):从start开始截职字符串
-        System.out.println(s1.substring(0));
+        System.out.println(s1);
         System.out.println(s1.substring(5));
 
         //String substring(int start,int end):从start开始，到end结束截取字符串。包括start，不包括end
-        System.out.println(s1.substring(0, s1.length()));
+        System.out.println(s1);
         System.out.println(s1.substring(3, 8));
 
         System.out.println("========================================");
