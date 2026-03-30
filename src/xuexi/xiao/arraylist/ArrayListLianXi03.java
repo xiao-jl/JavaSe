@@ -6,8 +6,6 @@ package xuexi.xiao.arraylist;
 * 存储自定义对象病遍历
 * */
 
-import h666.com.zongjie.ZongJie;
-
 import java.util.ArrayList;
 
 public class ArrayListLianXi03 {
