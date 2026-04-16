@@ -1,6 +1,6 @@
 package h666.com.jiaoxue;
 
-public class Hello {
+public class Hello02 {
     public static void main(String[] args) {
 
         System.out.println("1");

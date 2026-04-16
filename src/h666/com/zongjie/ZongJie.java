@@ -141,14 +141,11 @@ public class ZongJie {
         //创建对象---String类型
         ArrayList<String> array = new ArrayList<String>();
 
-        //添加
         array.add("Hello");
         array.add("Java");
         array.add("!!!");
 
-        //打印
         System.out.println(array);
-
         //遍历
         //非标准写法
         for (int i = 0;i < array.size();i ++) {
@@ -185,6 +182,12 @@ public class ZongJie {
 
 
     }
+
+
+
+//此处以上是main方法内的
+//======================================================================================================================
+//此处以下是main方法外的
 
 
 

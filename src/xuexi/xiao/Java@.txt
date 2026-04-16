@@ -1,0 +1,26 @@
+Java jdk-8 核心包内置的注解
+
+
+
+共10个，分为两类：
+
+1. java.lang下的实用内置注解（共5个）
+    @Override：标记方法重写，编译器会强制校验方法签名正确性
+    @Deprecated：标记类、方法或字段已废弃，编译器会生成废弃警告
+    @SuppressWarnings：压制指定的编译器警告，比如忽略泛型 unchecked 警告
+    @SafeVarargs：声明泛型可变参数方法安全，抑制堆污染警告，仅可用于final/static/private方法
+    @FunctionalInterface：Java8新增，标记接口为函数式接口（要求接口仅包含一个抽象方法），为Lambda表达式提供语法支持
+
+2. java.lang.annotation下的元注解（共5个）           （元注解是用来定义注解行为的注解）
+    @Target：定义注解可使用的目标位置（类、方法、字段等），通过ElementType枚举指定
+    @Retention：控制注解的生命周期，分为SOURCE（仅源码阶段）、CLASS（字节码阶段）、RUNTIME（运行时阶段）
+    @Documented：标记注解会被包含在Javadoc文档中
+    @Inherited：允许子类继承父类的该注解（仅对类级注解生效）
+    @Repeatable：Java8新增，允许同一位置重复使用相同注解，实现了重复注解特性
+
+
+
+除了内置注解外，Java8还对注解机制做了语法扩展：
+    新增了类型注解支持，允许注解用在任意类型位置（比如泛型、强制转换、对象创建处）
+    同时还拓展了ElementType枚举新增TYPE_USE和TYPE_PARAMETER两个类型，但这两个属于枚举值，不是新增独立注解
+    另外，用户可以自定义任意多个注解，因此总数量没有固定上限，上述是JDK官方自带的固定数量
