@@ -1,5 +1,5 @@
 //package (用于声明当前文件的包名)
-package h666.com.zongjie;
+package xuexi.xiao.zongjie;
 
 //import (用于导入其他包中的类或接口)
 //导入键盘录入的包
