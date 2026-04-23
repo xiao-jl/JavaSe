@@ -1,5 +1,7 @@
 package xuexi.xiao.zongjie;
 
+//类
+
 public class Lei {
 
     private final String a;

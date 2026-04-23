@@ -1,5 +1,7 @@
 package xuexi.xiao.arraylist;
 
+// ArrayList练习03_类
+
 public class ArrayListLianXi03_Lei {
 
     private final String a;
