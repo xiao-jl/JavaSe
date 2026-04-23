@@ -45,35 +45,35 @@ src/
 所有的程序皆在h666项目包下
 * 登录注册相关——————src/h666/com/denglu
 
-&emsp;&emsp;&emsp;分为main类、注册类、登录类、一份存放日志的txt文件与一份存放账户账号信息的txt文件
+&emsp;&emsp;&emsp;&emsp;分为main类、注册类、登录类、一份存放日志的txt文件与一份存放账户账号信息的txt文件
 
 <br>
 
 * 加密解密————————src/h666/com/jiamijiemi
 
-&emsp;&emsp;&emsp;目前正在开发进制转换与哈希值加密
+&emsp;&emsp;&emsp;&emsp;目前正在开发进制转换与哈希值加密
 
 <br>
 
-&emsp;&emsp;&emsp;项目进度：
+&emsp;&emsp;&emsp;&emsp;项目进度：
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;进制转换——————正在开发
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;进制转换——————正在开发
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;开发规划见"src/h666/com/jiamijiemi"目录下"待处理.txt"文件
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;开发规划见"src/h666/com/jiamijiemi"目录下"待处理.txt"文件
 
 <br>
 
-&emsp;&emsp;&emsp;哈希值：
+&emsp;&emsp;&emsp;&emsp;哈希值：
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;MD5——————————已开发完毕
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;MD5——————————已开发完毕
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SHA-1—————————正在开发
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SHA-1—————————正在开发
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SHA-256————————未来规划开发
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SHA-256————————未来规划开发
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SHA-512————————未来规划开发
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SHA-512————————未来规划开发
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bcrypt——————————未来规划开发
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bcrypt——————————未来规划开发
 
 <br>
 
