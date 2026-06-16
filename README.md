@@ -90,3 +90,13 @@ src/
 * 佛祖
 
 <br>
+
+## Star History
+
+<a href="https://star-history.com/#xiao-jl/JavaSe&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=xiao-jl/JavaSe&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=xiao-jl/JavaSe&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=xiao-jl/JavaSe&type=Date" />
+  </picture>
+</a>
