@@ -54,10 +54,10 @@ src/
 
 ## Star History
 
-<a href="https://star-history.com/#xiao-jl/JavaSe&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=xiao-jl/JavaSe&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=xiao-jl/JavaSe&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=xiao-jl/JavaSe&type=Date" />
-  </picture>
+<a href="https://www.star-history.com/?type=date&repos=xiao-jl%2FJavaSe">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=xiao-jl/JavaSe&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=xiao-jl/JavaSe&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=xiao-jl/JavaSe&type=date&legend=top-left" />
+ </picture>
 </a>
