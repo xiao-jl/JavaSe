@@ -13,7 +13,6 @@ public class ZhuCe {
 
     public void zhuCe(String[] a, String[] b) {
 
-        boolean tui1 = false;
         Scanner sc = new Scanner(System.in);
         String zhangH = ""; // 在循环外声明变量
 
