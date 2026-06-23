@@ -122,7 +122,7 @@ public class ZongJie {
     //键盘录入
         //为键盘录入申请内存（开启）
         Scanner sc = new Scanner(System.in);
-        System.out.print("请输入任意数字以继续运行：");     //提醒一下，否则可能没有提示导致无法执行下一步
+        System.out.print("请输入任意数字以继续运行(仅输入,对运行结果无任何影响,无使用)：");     //提醒一下，否则可能没有提示导致无法执行下一步
         int sssccc = sc.nextInt();
         //为键盘录入关闭内存（关闭）
         sc.close();

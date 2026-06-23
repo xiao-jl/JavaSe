@@ -27,7 +27,7 @@ public class ArrayListLianXi04 {
         array.add(s);
 
         //遍历数据
-        for(int i = 0;i < array.size();i++) {
+        for (int i = 0;i < array.size();i++) {
             ArrayListLianXi04_Lei ss = array.get(i);
             System.out.println(ss.getName()+"---"+ss.getAge());
         }
